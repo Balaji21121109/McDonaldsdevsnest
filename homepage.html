@@ -16,15 +16,15 @@
     <!--left box is opening-->
         <div id="left">
             <!---comapny img left top boeder-->
-              <img class="img_1" src="https://mcdindia.com/wp-content/uploads/2020/04/logo-symbol.svg" alt="website image">
+              <img class="img_1" id="script_head_img" src="https://mcdindia.com/wp-content/uploads/2020/04/logo-symbol.svg" alt="website image">
            <!---h1 tags in the left box-->
               <form id="form1">
-            <h1 class="img_1">ALL New</h1>
-            <h1 class="img_1">Dil Se Makhani<br>Burgers</h1>
+            <h1 class="img_1" id="Script_head1">ALL New</h1>
+            <h1 class="img_1" id="Script_head2">Dil Se Makhani<br>Burgers</h1>
         </form>
         <form id="form2">
-           <button class="arrows" ><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.43R--FLdUK76Ze38rjn94wAAAA&pid=Api&P=0&w=245&h=169" alt="leftimg"></button>
-           <button class="arrows" ><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.PchDjw28xEhg_wjgPsw_oAHaF7&pid=Api&P=0&w=213&h=170" alt="leftimg"></button>
+           <button class="arrows" id="script_slid1" onclick="slid1()" ><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.43R--FLdUK76Ze38rjn94wAAAA&pid=Api&P=0&w=245&h=169" alt="leftimg"></button>
+           <button class="arrows" id="script_slid2" onclick="slid2()"><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.PchDjw28xEhg_wjgPsw_oAHaF7&pid=Api&P=0&w=213&h=170" alt="leftimg"></button>
         </form>
         </div>
 
@@ -47,7 +47,7 @@
     <!---container div also ended-->
     <div id="tabs_sidebar">
         <form id="form4">
-            <button class="tabs_buttons" >BURGERS & WRAP</button>
+            <button class="tabs_buttons" onclick="myfunction1()" >BURGERS & WRAP</button>
             <button class="tabs_buttons" onclick="myfunction2()">SNACKS & SIDES</button>
             <button class="tabs_buttons" onclick="myfunction3()">DESSERTS</button>
             <button class="tabs_buttons" onclick="myfunction4()">BEVERAGES</button>

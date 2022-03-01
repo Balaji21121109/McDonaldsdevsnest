@@ -1,3 +1,8 @@
+
+function myfunction1(){
+    event.preventDefault()
+}
+
 function myfunction2(){
     var h1=document.getElementById("script_h1").textContent="Pizza McPuff®";
     
@@ -41,4 +46,17 @@ function myfunction2(){
             
             event.preventDefault();
             }
+    function slid1(){
+        var x=document.getElementById("Script_head1").textContent="Now Order"
+        var y=document.getElementById("Script_head2").textContent="Wholesome Whole Wheat"
+     var z=document.getElementById("right").style.backgroundImage="url('https://scontent.cdninstagram.com/v/t51.29350-15/274696217_487593539479032_6460887784596930402_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=f4BOTeYu4XMAX9IUiKV&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-qIvssO5HI7qPaPLKNCFOtU_xIzyvqS5qFrtoNrBIQmg&oe=6221EA0E')"
     
+        event.preventDefault()
+    }
+    function slid2(){
+        var x=document.getElementById("Script_head1").textContent="get discount"
+        var y=document.getElementById("Script_head2").textContent="ordernow "
+
+    var z=document.getElementById("right").style.backgroundImage="url('https://scontent.cdninstagram.com/v/t51.2885-15/274373437_684487715929414_8135030881830093954_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=xSDdKt6kujMAX_uACSU&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-U6cSaca_4lCRMcgQpbX0lB9RVX8J124MvAp3XGfR_EA&oe=62227A36')"
+        event.preventDefault()
+    }
